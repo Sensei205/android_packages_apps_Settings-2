@@ -61,5 +61,5 @@
         android:selectable="false"
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomBedtimePreferenceController" />
-
+        
 </PreferenceScreen>

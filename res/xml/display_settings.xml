@@ -176,5 +176,16 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+
+        <com.arrow.settings.preference.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+
+        <com.arrow.settings.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 </PreferenceScreen>
